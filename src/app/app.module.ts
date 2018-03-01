@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import { NzDemoGridGutterComponent } from './nz-demo-grid-gutter/nz-demo-grid-gutter.component';
 import { NzDemoGridFlexComponent } from './nz-demo-grid-flex/nz-demo-grid-flex.component';
 import { NzDemoLayoutComponent } from './nz-demo-layout/nz-demo-layout.component';
+import { NzDemoAffixComponent } from './nz-demo-affix/nz-demo-affix.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NzDemoLayoutComponent } from './nz-demo-layout/nz-demo-layout.component
     AppComponent,
     NzDemoGridGutterComponent,
     NzDemoGridFlexComponent,
-    NzDemoLayoutComponent
+    NzDemoLayoutComponent,
+    NzDemoAffixComponent
   ],
   imports: [
     BrowserModule,
