@@ -1,4 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgModule} from '@angular/core';
 import {NgZorroAntdModule} from 'ng-zorro-antd';
 
@@ -8,7 +9,8 @@ import {NzDemoGridFlexComponent} from './nz-demo-grid-flex/nz-demo-grid-flex.com
 import {NzDemoLayoutComponent} from './nz-demo-layout/nz-demo-layout.component';
 // import { NzDemoAffixComponent } from './nz-demo-affix/nz-demo-affix.component';
 import {NzDemoBreadcrumbComponent} from './nz-demo-breadcrumb/nz-demo-breadcrumb.component';
-import {BrowserAnimationsModule} from '@angular/'
+import {NzDemoAffixComponent} from './nz-demo-affix/nz-demo-affix.component';
+import {NzDemoDropdownComponent} from './nz-demo-dropdown/nz-demo-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +18,13 @@ import {BrowserAnimationsModule} from '@angular/'
     NzDemoGridGutterComponent,
     NzDemoGridFlexComponent,
     NzDemoLayoutComponent,
-    BrowserAnimationsModule,
-    //   NzDemoAffixComponent,
-    NzDemoBreadcrumbComponent
+    NzDemoAffixComponent,
+    NzDemoBreadcrumbComponent,
+    NzDemoDropdownComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     NgZorroAntdModule.forRoot({extraFontName: 'anticon', extraFontUrl: './assets/iconfont'})
   ],
   providers: [],

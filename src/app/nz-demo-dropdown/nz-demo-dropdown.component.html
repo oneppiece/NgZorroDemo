@@ -1,0 +1,34 @@
+<nz-dropdown [nzTrigger]="'click'" [nzClickHide]="true" [nzVisible]="false" [nzPlacement]="'topRight'" nzClickHide="true">
+  <a class="ant-dropdown-link" nz-dropdown>
+    Hover <i class="anticon anticon-down"></i>
+  </a>
+  <ul nz-menu>
+    <li nz-menu-item>
+      1 Item .
+    </li>
+    <li nz-menu-item>
+      2 Item .
+    </li>
+    <li nz-menu-item>
+      3 Item .
+    </li>
+  </ul>
+</nz-dropdown>
+
+
+<nz-dropdown [nzPlacement]="'bottomLeft'">
+  <button nz-button nz-dropdown>bottomLeft</button>
+  <ul nz-menu>
+    <li nz-menu-item><a href>菜单一</a></li>
+    <li nz-menu-item><a href>菜单二</a></li>
+    <li nz-menu-item><a href>菜单三</a></li>
+    <li nz-submenu>
+      <span title>submenu</span>
+      <ul>
+        <li nz-menu-item>紫菜蛋1</li>
+        <li nz-menu-item>紫菜蛋2</li>
+        <li nz-menu-item>紫菜蛋3</li>
+      </ul>
+    </li>
+  </ul>
+</nz-dropdown>
